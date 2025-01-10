@@ -6,7 +6,7 @@ from prophet import Prophet
 
 # For ARIMA model
 from pmdarima import auto_arima
-
+# Used Numpy 1.26.3 version as latest one was giving an error. Installed all packages and in the last install PMDarima to ensure it has all the packages.
 
 ###############################################################################
 # 1. Data Retrieval
